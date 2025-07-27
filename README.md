@@ -1,7 +1,7 @@
 # 🔥 TDEE Calculator API
 
 [![Live API](https://img.shields.io/badge/Live%20API-Railway-brightgreen)](https://tdee-api-production.up.railway.app)
-[![RapidAPI](https://img.shields.io/badge/Available%20on-RapidAPI-blue)](https://rapidapi.com/Krinh/api/tdee-calculator)
+[![RapidAPI](https://img.shields.io/badge/Available%20on-RapidAPI-blue)](https://rapidapi.com/Krinhj/api/tdee-calculator)
 [![Node.js](https://img.shields.io/badge/Node.js-22.17.0-green)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-4.16.1-lightgrey)](https://expressjs.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -96,7 +96,7 @@ const response = await fetch('https://tdee-calculator.p.rapidapi.com/calculate',
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Krinh/tdee-api.git
+git clone https://github.com/Krinhj/tdee-api.git
 cd tdee-api
 
 # Install dependencies
@@ -132,10 +132,10 @@ curl -X POST http://localhost:3000/calculate \
 
 ## 📈 Performance
 
-- **Response Time**: < 100ms average
-- **Uptime**: 99.9%
-- **Rate Limit**: 100 requests per 15 minutes
-- **Concurrent Users**: 1000+
+- **Response Time**: ~90ms average (health endpoint), ~270ms (calculate endpoint)
+- **Deployment**: Railway cloud hosting with high availability
+- **Rate Limit**: 100 requests per 15 minutes (configurable per plan)
+- **Tested Performance**: Consistent sub-second responses
 
 ## 💰 Pricing
 
@@ -146,7 +146,7 @@ curl -X POST http://localhost:3000/calculate \
 | **Ultra** | $5.99 | 10,000 |
 | **Mega** | $9.99 | 50,000 |
 
-[**🔗 Subscribe on RapidAPI**](https://rapidapi.com/Krinh/api/tdee-calculator)
+[**🔗 Subscribe on RapidAPI**](https://rapidapi.com/Krinhj/api/tdee-calculator)
 
 ## 🎯 Use Cases
 
@@ -159,8 +159,8 @@ curl -X POST http://localhost:3000/calculate \
 ## 📚 Documentation
 
 ### Complete API Documentation
-- [**📖 Full Documentation**](https://rapidapi.com/Krinh/api/tdee-calculator)
-- [**🧪 Interactive Testing**](https://rapidapi.com/Krinh/api/tdee-calculator/playground)
+- [**📖 Full Documentation**](https://rapidapi.com/Krinhj/api/tdee-calculator)
+- [**🧪 Interactive Testing**](https://rapidapi.com/Krinhj/api/tdee-calculator/playground/apiendpoint_06dbb0fa-8f50-4e26-bef7-7859a45d2af6)
 
 ### Activity Levels
 ```javascript
@@ -221,6 +221,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **💡 Request features** via GitHub Discussions
 - **📧 Business inquiries** via RapidAPI
 
+## 📊 Status
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Krinhj/tdee-api)
+![GitHub issues](https://img.shields.io/github/issues/Krinhj/tdee-api)
+![GitHub stars](https://img.shields.io/github/stars/Krinhj/tdee-api)
+
 ---
 
-**Built by [Krinh](https://github.com/Krinh) | Available on [RapidAPI](https://rapidapi.com/Krinh/api/tdee-calculator)**
+**Built by [Krinhj](https://github.com/Krinhj) | Available on [RapidAPI](https://rapidapi.com/Krinhj/api/tdee-calculator)**
