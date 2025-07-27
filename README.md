@@ -134,7 +134,7 @@ curl -X POST http://localhost:3000/calculate \
 
 - **Response Time**: ~90ms average (health endpoint), ~270ms (calculate endpoint)
 - **Deployment**: Railway cloud hosting with high availability
-- **Rate Limit**: 100 requests per 15 minutes (configurable per plan)
+- **Rate Limit**: 100 requests per month (Basic Free Plan)
 - **Tested Performance**: Consistent sub-second responses
 
 ## 💰 Pricing
