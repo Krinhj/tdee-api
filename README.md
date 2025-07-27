@@ -2,8 +2,8 @@
 
 [![Live API](https://img.shields.io/badge/Live%20API-Railway-brightgreen)](https://tdee-api-production.up.railway.app)
 [![RapidAPI](https://img.shields.io/badge/Available%20on-RapidAPI-blue)](https://rapidapi.com/Krinh/api/tdee-calculator)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-4.18+-lightgrey)](https://expressjs.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-22.17.0-green)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.16.1-lightgrey)](https://expressjs.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Fast and accurate REST API for calculating Total Daily Energy Expenditure (TDEE) with detailed calorie goals and macro suggestions. Built for fitness apps, health platforms, and nutrition tools.**
@@ -79,8 +79,8 @@ const response = await fetch('https://tdee-calculator.p.rapidapi.com/calculate',
 
 ## 🏗️ Tech Stack
 
-- **Runtime**: Node.js 18+
-- **Framework**: Express.js
+- **Runtime**: Node.js 22.17.0
+- **Framework**: Express.js 4.16.1
 - **Deployment**: Railway
 - **Marketplace**: RapidAPI
 - **Rate Limiting**: express-rate-limit
@@ -90,7 +90,7 @@ const response = await fetch('https://tdee-calculator.p.rapidapi.com/calculate',
 ## 🚀 Local Development
 
 ### Prerequisites
-- Node.js 18+
+- Node.js 22+
 - npm or yarn
 
 ### Installation
