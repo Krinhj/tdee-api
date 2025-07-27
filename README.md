@@ -221,12 +221,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **💡 Request features** via GitHub Discussions
 - **📧 Business inquiries** via RapidAPI
 
-## 📊 Status
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Krinh/tdee-api)
-![GitHub issues](https://img.shields.io/github/issues/Krinh/tdee-api)
-![GitHub stars](https://img.shields.io/github/stars/Krinh/tdee-api)
-
 ---
 
 **Built by [Krinh](https://github.com/Krinh) | Available on [RapidAPI](https://rapidapi.com/Krinh/api/tdee-calculator)**
